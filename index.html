@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="fontawesome5/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="header">
+      <div class="logo">
+        <h2>BRAND</h2>
+      </div>
+      <input type="text" placeholder="search" class="search" />
+      <div class="navlink">
+        <ul class="menu">
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">faq</a></li>
+        </ul>
+        <i class="fa fa-bars bars"></i>
+      </div>
+    </section>
+  </section>
+  <div class="app-container">
+  <h3>CURRENCY CONVERTER</h3>
+  <div class="CUREENCY">
+    <label for="number"></label><input type="number" class="user">
+      <select class="firstcurrency">
+        <option value="NGN">Naira</option>
+        <option value="USD">Dollar</option>
+        <option value="EUR">Euro</option>
+      </select>
+      <i class="fa fa-exchange-alt"></i>
+        <select class="secondcurrency">
+          <option value="NGN">Naira</option>
+          <option value="USD">Dollar</option>
+          <option value="EUR">Euro</option>
+        </select>
+        <button class="convertBtn" value="convert">convert</button>
+        <div class="btn">
+        <p class="result">0</p>
+        </div>
+  </div>
+  </div>
+    <script src="curapp.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
